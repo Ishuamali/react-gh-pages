@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Ishuamali/react-gh-pages/precache-manifest.b3be7d987138ef9b6de692875efe7ec1.js"
+  "/react-gh-pages/precache-manifest.f91a3a6a967834b98923507a4f5ddd22.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Ishuamali/react-gh-pages/index.html", {
+workbox.routing.registerNavigationRoute("/react-gh-pages/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
